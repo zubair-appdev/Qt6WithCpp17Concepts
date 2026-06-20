@@ -45,6 +45,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Initial value
     ui->spinBox_area->setValue(area.value());
+
+    qDebug()<<QT_VERSION_STR;
 }
 
 MainWindow::~MainWindow()
